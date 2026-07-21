@@ -1,0 +1,13 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Live Server",
+      "command": "npx live-server .",
+      "type": "shell",
+      "use_new_terminal": true,
+      "allow_concurrent_runs": false,
+      "reveal": "always"
+    }
+  ]
+}
