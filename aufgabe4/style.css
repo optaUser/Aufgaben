@@ -1,0 +1,71 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Äußerer Rahmen: lila, abgerundet */
+.calculator {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    gap: 20px;
+    background: #b19cd9;
+    border-radius: 25px;
+    padding: 25px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Display: oben, horizontal, breit, mit grünem Doppelrahmen */
+.display {
+    background: #fdf6e3;
+    border: 4px double green;
+    border-radius: 5px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    padding: 0 20px;
+    word-break: break-all;
+}
+
+/* Buttons: 4x4 Grid */
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 15px;
+}
+
+/* Runde, hellblaue Buttons mit roter Schrift */
+button {
+    background: lightblue;
+    color: red;
+    border: none;
+    border-radius: 50%;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    aspect-ratio: 1;
+    transition: transform 0.1s;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(0.95);
+}
