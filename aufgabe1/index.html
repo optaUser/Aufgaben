@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taschenrechner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Der Taschenrächner: Er rächt sich bei den Taschen</h1>
+
+    <div class="calculator">
+        <input type="number" id="zahl1">
+        <input type="number" id="zahl2">
+
+        <button class="plus" onclick="rechnen('+')">+</button>
+        <button class="minus" onclick="rechnen('-')">−</button>
+        <button class="mal" onclick="rechnen('*')">*</button>
+        <button class="geteilt" onclick="rechnen('/')">/</button>
+    </div>
+
+    <h2 id="ergebnis"></h2>
+
+<script src="script.js"></script>
+</body>
+</html>
