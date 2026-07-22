@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eigener Taschenrechner</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Übung: Der eigene Taschenrechner</h1>
+
+    <p>Schreibe eine Homepage, auf der ein Nutzer zwei Zahlen eingeben kann, die dann verrechnet werden. Die Ausgabe soll in der Konsole erfolgen.</p>
+
+    <p>Die einfachste Ausprägung ist folgende:</p>
+
+    <div class="rechner">
+        <input type="number" id="zahl1">
+        <input type="number" id="zahl2">
+        <button onclick="rechnen('+')">Addieren</button>
+        <button onclick="rechnen('-')">Subtrahieren</button>
+        <button onclick="rechnen('*')">Multiplizieren</button>
+        <button onclick="rechnen('/')">Dividieren</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

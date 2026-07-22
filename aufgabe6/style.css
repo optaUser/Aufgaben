@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 50px;
+    max-width: 900px;
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+.rechner {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+input {
+    width: 150px;
+    height: 35px;
+    font-size: 18px;
+    padding: 4px;
+}
+
+button {
+    height: 38px;
+    padding: 0 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
