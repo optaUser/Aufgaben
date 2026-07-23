@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personenverwaltung</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Aufgabe: Personenverwaltung</h1>
+    <p class="aufgabe">Eine Personenverwaltung entwickeln, welche Personen auflistet, speichern, löschen und bearbeiten kann.</p>
+
+    <div id="list"></div>
+
+    <div class="form">
+        <input id="name" placeholder="Name">
+        <input id="adresse" placeholder="Adresse">
+        <input id="plz" placeholder="PLZ">
+        <input id="ort" placeholder="Ort">
+    </div>
+
+    <div class="buttons">
+        <button onclick="anzeigen()">Person anzeigen</button>
+        <button onclick="hinzufuegen()">Person hinzufügen</button>
+        <button onclick="loeschen()">Person löschen</button>
+        <button onclick="bearbeiten()">Person bearbeiten</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
